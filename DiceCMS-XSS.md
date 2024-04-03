@@ -1,5 +1,5 @@
 ## github issue:
-
+https://github.com/bihell/Dice/issues/181
 
 ## Vulnerability Title: XSS vulnerabilities in Dice CMS   
 
