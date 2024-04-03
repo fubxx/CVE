@@ -20,13 +20,15 @@
 
 - location on web application   
 
-  <img width="1292" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/b48f8a0f-668c-4073-b605-2f89db1ae21a">      
+  <img width="1292" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/b48f8a0f-668c-4073-b605-2f89db1ae21a">   
+  Enter the payload in the comment section, fill in the other information as normal, and then click on "发布".
   <img width="1153" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/04f28f02-a922-4ec1-852f-99d4721b88e7">   
 
 
 - payload      
   `"><img src=1 onerror=alert(1)>`
-- Xss attack：   
+- Xss attack：
+  Refresh the page to verify the xss attack   
   <img width="1159" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/4ba72aa0-a950-48b0-99cb-18198002fa80">
 
 ## Impact:
