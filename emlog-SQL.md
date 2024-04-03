@@ -1,3 +1,5 @@
+## github issue url :
+https://github.com/emlog/emlog/issues/293
 ## Vulnerability Title: SQL injection vulnerabilities in emlog
 
 - #### Vulnerability Type: SQL Injection
