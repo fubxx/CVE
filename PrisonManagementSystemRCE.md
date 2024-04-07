@@ -1,4 +1,4 @@
-Prison Management System - File upload on (/Admin/edit-photo.php) 
+Prison Management System - File upload RCE (/Admin/edit-photo.php) 
 
 Vendor Homepage:
 
