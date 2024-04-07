@@ -1,8 +1,8 @@
 ## Vulnerability Title: /admin-api/upload_image File Upload Bypass Lead to Stored XSS Vulnerability
 
 - #### Vulnerability Type: /admin-api/upload_image File Upload Bypass Lead to Stored XSS Vulnerability
-- #### Vendor Homepage: [https://www.emlog.net/](https://owladmin.com/site)
-- #### Software Link: [https://github.com/emlog/emlog](https://github.com/slowlyo/owl-admin)
+- #### Vendor Homepage: https://owladmin.com/site
+- #### Software Link: https://github.com/slowlyo/owl-admin
 - #### Affected Software/Version: v3.5.7
 
 ## Application Demo and credentials
