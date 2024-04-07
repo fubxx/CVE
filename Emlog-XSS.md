@@ -1,6 +1,6 @@
-## Vulnerability Title: Stored XSS vulnerabilities in Emlog Pro 2.2.10
+## Vulnerability Title: Emlog Pro 2.2.10 /admin/twitter.php Stored XSS Vulnerability
 
-- #### Vulnerability Type: Stored XSS
+- #### Vulnerability Type: Stored XSS Vulnerability
 - #### Vendor Homepage: https://www.emlog.net/
 - #### Software Link: https://github.com/emlog/emlog
 - #### Affected Software/Version: pro 2.2.10
