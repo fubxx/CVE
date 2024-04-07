@@ -8,7 +8,7 @@
 ## Application Demo and credentials
 
 - URL   
-[https://demo.emlog.cn/admin/account.php?action=signin](http://demo.owladmin.com/admin#/login)    
+http://demo.owladmin.com/admin#/login    
 username:admin   
 password:admin   
 
