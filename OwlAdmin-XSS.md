@@ -1,6 +1,6 @@
-## Vulnerability Title: /admin-api/upload_image File Upload Bypass Lead to Stored XSS Vulnerability
+## Vulnerability Title: /admin-api/upload_image File Upload Lead to Stored XSS Vulnerability
 
-- #### Vulnerability Type: /admin-api/upload_image File Upload Bypass Lead to Stored XSS Vulnerability
+- #### Vulnerability Type: /admin-api/upload_image File Upload Lead to Stored XSS Vulnerability
 - #### Vendor Homepage: https://owladmin.com/site
 - #### Software Link: https://github.com/slowlyo/owl-admin
 - #### Affected Software/Version: v3.5.7
