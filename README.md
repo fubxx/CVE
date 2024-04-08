@@ -1,4 +1,4 @@
-CVE水漏洞记录,只记录通过的 by Leeyu.
+CVE漏洞编号记录
 
 
 | File      | CVE Public Link                                              | CVE                | 备注                |
