@@ -35,13 +35,12 @@ Affected Page:
 In this scenario, user input (txtphone) is directly  incorporated into an SQL query without any filtering or prepared  statements, making the application susceptible to SQL Injection attacks.
 
 ```
-15: mysqli_query mysqli_query($conn, $sql))
-14: $sql = " update users set fullname='$fullname',phone='$phone' where username='$username'"; 
-11: $fullname = $_POST['txtfullname']; 
-12: $phone = $_POST['txtphone']; 
-32: $username = $_SESSION['admin-username'];  // topbar.php
+9: mysqli_query mysqli_query($conn, $sql))
+8: $sql = " update tblemployee set fullname='" . $_POST['txtfullname'] . "',sex='" . $_POST['cmdsex'] . "',dob='" . $_POST['txtdob'] . "',phone='" . $_POST['txtphone'] . "',address='" . $_POST['txtaddress'] . "',qualification='" . $_POST['txtqualification'] . "',dept='" . $_POST['cmddept'] . "',employee_type='" . $_POST['cmdemployeetype'] . "',date_appointment='" . $_POST['txtappointment'] . "',basic_salary='" . $_POST['txtbasic_salary'] . "',gross_pay='" . $_POST['txtgross_pay'] . "' where email='$email'"; 
+18: $email = $rowaccess['email'];  // topbar.php
+14: $rowaccess = $stmt->fetch();  // topbar.php
 requires:
-8: if(isset($_POST['btnupdate']))
+7: if(isset($_POST['btnedit']))
 ```
 
 Proof of vulnerability:
