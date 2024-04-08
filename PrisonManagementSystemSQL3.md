@@ -1,4 +1,4 @@
-Prison Management System - SQL Injection on (/prison/Admin/edit_profile.php) 
+Prison Management System - SQL Injection on (/Admin/edit_profile.php) 
 
 Vendor Homepage:
 
@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/prison/Admin/edit_profile.php
+/Admin/edit_profile.php
 ```
 
 In this scenario, user input (txtphone) is directly  incorporated into an SQL query without any filtering or prepared  statements, making the application susceptible to SQL Injection attacks.
@@ -41,7 +41,7 @@ Proof of vulnerability:
 Request:
 
 ```
-POST /prison/Admin/edit_profile.php HTTP/1.1
+POST /Admin/edit_profile.php HTTP/1.1
 Host: localhost:8888
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,*/*;q=0.8
