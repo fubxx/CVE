@@ -94,6 +94,8 @@ payload
 <img width="1313" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/a3ae9313-6446-4315-838d-4a0681fd5ef5">
 <img width="1268" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/cdf83903-8d97-4f5b-823c-23be73c4003b">
 <img width="1265" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/fd74a2d1-ab0a-451a-a0e6-88b99e35bebc">
+<img width="1339" alt="image" src="https://github.com/fubxx/CVE/assets/135971045/3210964d-d5bd-4652-b8a2-cf631999fa58">
+
 
 
 
