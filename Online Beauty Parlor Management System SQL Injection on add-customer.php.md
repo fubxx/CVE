@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/admin/index.php
+/admin/add-customer.php
 ```
 
 On this page, `mobilenum` parameter is vulnerable to SQL Injection Attack
