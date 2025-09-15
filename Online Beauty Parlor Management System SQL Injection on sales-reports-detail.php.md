@@ -1,4 +1,4 @@
-Online Beauty Parlor Management System - SQL Injection on (/admin/Online Beauty Parlor Management System - SQL Injection on (/admin/sales-reports-detail.php fromdate parameter) 
+Online Beauty Parlor Management System - SQL Injection on (/admin/sales-reports-detail.php fromdate parameter) 
 
 Vendor Homepage:
 
