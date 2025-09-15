@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/admin/index.php
+/admin/view-appointment.php
 ```
 
 On this page, `viewid` parameter is vulnerable to SQL Injection Attack
