@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/admin/index.php
+/admin/edit-customer-detailed.php
 ```
 
 On this page, `editid` parameter is vulnerable to SQL Injection Attack
