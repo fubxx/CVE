@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/admin/index.php
+/admin/bwdates-reports-details.php
 ```
 
 On this page, `fromdate` parameter is vulnerable to SQL Injection Attack
