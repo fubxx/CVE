@@ -21,7 +21,7 @@ PHP, Apache, MySQL
 Affected Page:
 
 ```
-/admin/index.php
+/admin/add-services.php
 ```
 
 On this page, sername parameter is vulnerable to SQL Injection Attack
