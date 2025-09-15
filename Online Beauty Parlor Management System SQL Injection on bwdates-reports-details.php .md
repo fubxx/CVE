@@ -133,5 +133,6 @@ current user: 'root@localhost'
 	
 
 
+<img width="982" height="666" alt="image" src="https://github.com/user-attachments/assets/b527f9ba-10c0-4b39-b51c-91d97eaf4737" />
 
 
