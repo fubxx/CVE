@@ -24,7 +24,7 @@ Affected Page:
 /admin/index.php
 ```
 
-On this page, username parameter is vulnerable to SQL Injection Attack
+On this page, sername parameter is vulnerable to SQL Injection Attack
 
 ```
 if(isset($_POST['submit']))
